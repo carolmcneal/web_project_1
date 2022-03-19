@@ -20,6 +20,9 @@
 
 .nav {
   /* Add flex properties here */
+  display:flex;
+  justify-content:space-evenly;
+  align-items:center;
 }
 
 .logo {
@@ -31,6 +34,9 @@
   list-style: none;
   padding-left: 0;
   margin-top: 8px;
+  display:flex;
+  align-items:center;
+  column-gap:20px;
 }
 
 .nav__link {
@@ -342,6 +348,7 @@
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
+  max-width: 154px;
 }
 
 .about__content {
