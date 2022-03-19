@@ -1,5 +1,12 @@
 /* Add your class here */
-
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: auto;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+}
 .header {
   height: 100vh;
   min-height: 720px;
@@ -16,6 +23,8 @@
 }
 
 .logo {
+  width: 196px;
+  height: 60px;
 }
 
 .nav__links {
@@ -37,16 +46,19 @@
   line-height: 76px;
   font-weight: 500;
   margin: 150px 0 0;
+  max-width: 544px;
 }
 
 .header__description {
   font-size: 20px;
   line-height: 30px;
   margin: 32px 0 0;
+  max-width: 465px;
 }
 
 .header__image {
   /* Write styles here */
+  max-width: 636px;
   z-index: 1;
 }
 
@@ -109,6 +121,8 @@
   height: 100%;
   display: flex;
   flex-direction: column;
+  width: 360px;
+  height: 420px;
 }
 
 .card__title {
@@ -179,10 +193,14 @@
 
 .event-info__icon_type_calendar {
   background-image: url(../images/icon_calendar.svg);
+  height: 24px;
+  width: 24px;
 }
 
 .event-info__icon_type_pin {
   background-image: url(../images/icon_pin.svg);
+  height: 24px;
+  width: 24px;
 }
 
 .event-info__text {
