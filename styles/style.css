@@ -340,7 +340,8 @@ width: 140px;
 
 .membership__steps {
   display:flex;
-  flex-basis:220px;
+  flex-wrap:wrap;
+  gap:40px;
   flex-direction:row;
   justify-content: center;
   list-style-type: none;
@@ -353,7 +354,7 @@ width: 140px;
 
 .step {
   /* Add styles */
- margin-right:40px;
+ flex-basis:220px;
   
 }
 
@@ -381,6 +382,10 @@ width: 140px;
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display:flex;
+  align-items: center;
+  gap: 120px;
+
 }
 
 .about__title {
@@ -390,6 +395,7 @@ width: 140px;
   font-weight: 500;
   z-index: 1;
   max-width: 154px;
+  align-self:flex-start;
 }
 
 .about__content {
@@ -397,10 +403,19 @@ width: 140px;
   line-height: 30px;
   font-weight: 400;
   max-width: 660px;
+  display:flex;
+  flex-wrap:wrap;
+  gap:32px;
+
+  
+ 
 }
 
 .about__paragraph {
   margin: 0;
+  z-index: 1;
+ 
+  ;
 }
 
 .about__circle {
@@ -408,6 +423,12 @@ width: 140px;
   width: 495px;
   height: 495px;
   border-radius: 50%;
+  position: absolute;
+  display: flex;
+  align-items: flex-start;
+  left:-91px;
+  top:-121px;
+
 }
 
 .footer {
