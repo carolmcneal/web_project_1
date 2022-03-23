@@ -6,6 +6,8 @@
   font-family: "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
   line-height: 20px;
+  
+  
 }
 .header {
   height: 100vh;
@@ -433,18 +435,40 @@ width: 140px;
 
 .footer {
   box-sizing: border-box;
+  background-color: black;
+  color:white;
+ min-height: 224px;
+ padding: 60px 102px 60px 80px;
+
+
 }
 
 .footer__columns {
-}
+gap: 100px;
+display:flex;
+ flex-direction: row;
 
+  
+  
+
+}
+.footer__column{
+ 
+  
+}
 .footer__column_content_hours {
+margin-left: auto;
 }
 
 .footer__column_content_social {
+  color:white;
+
 }
 
 .footer__logo {
+  width:152px;
+  height:32px;
+  margin-right: auto;
 }
 
 .footer__list {
@@ -455,20 +479,26 @@ width: 140px;
 }
 
 .footer__list-item {
+  
 }
 
 .footer__column-heading {
+  margin-top:0;
+  
+  
 }
 
 .footer__column-link {
-  color: white;
   font-size: 16px;
   line-height: 20px;
   text-decoration: none;
 }
 
-.footer__social-icon {
+.footer__social-icons {
+  
 }
 
 .footer__copyright {
+  
+  
 }
